@@ -48,20 +48,8 @@ function Titulo(props) {
   );
 }
 
-// function HomePage() {
-//     return (
-//         <>
-//             <GlobalStyle />
-//             <Titulo tag="h2">Boas vindas!</Titulo>
-//             <h2>Discord Aluracord</h2>
-//         </>
-//     )
-//   }
-
-//   export default HomePage
-
 export default function PaginaInicial() {
-  const username = "peas";
+  const username = "felipeproj";
 
   return (
     <>
@@ -94,7 +82,7 @@ export default function PaginaInicial() {
             padding: "32px",
             margin: "16px",
             boxShadow: "0 2px 10px 0 rgb(0 0 0 / 20%)",
-            backgroundColor: appConfig.theme.colors.neutrals[700],
+            backgroundColor: appConfig.theme.colors.neutrals[600],
           }}
         >
           {/* Formulário */}
@@ -138,7 +126,7 @@ export default function PaginaInicial() {
               fullWidth
               buttonColors={{
                 contrastColor: appConfig.theme.colors.neutrals["000"],
-                mainColor: appConfig.theme.colors.primary[500],
+                mainColor: appConfig.theme.colors.primary[900],
                 mainColorLight: appConfig.theme.colors.primary[400],
                 mainColorStrong: appConfig.theme.colors.primary[600],
               }}

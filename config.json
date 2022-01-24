@@ -1,5 +1,5 @@
 {
-  "name": "Aluracord - Matrix (peas)",
+  "name": "Aluracord (felipeproj)",
   "stickers": [
     "http://2.bp.blogspot.com/-d21tffsTIQo/U_H9QjC69gI/AAAAAAAAKqM/wnvOyUr6a_I/s1600/Pikachu%2B2.gif",
     "https://media1.giphy.com/media/BdghqxNFV4efm/200.gif",
@@ -11,16 +11,16 @@
   "theme": {
     "colors": {
       "primary": {
-        "050": "#E3F9E5",
-        "100": "#C1EAC5",
-        "200": "#A3D9A5",
-        "300": "#7BC47F",
-        "400": "#57AE5B",
-        "500": "#3F9142",
-        "600": "#2F8132",
-        "700": "#207227",
-        "800": "#0E5814",
-        "900": "#05400A"
+        "050": "#70EE9C",
+        "100": "#6DEE9A",
+        "200": "#5BEC8D",
+        "300": "#48EA81",
+        "400": "#36E774",
+        "500": "#24E568",
+        "600": "#1ADB5D",
+        "700": "#18C956",
+        "800": "#15B74E",
+        "900": "#13A446"
       },
       "neutrals": {
         "000": "#FFFFFF",
