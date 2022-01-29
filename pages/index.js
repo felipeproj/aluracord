@@ -31,8 +31,7 @@ export default function PaginaInicial() {
           alignItems: "center",
           justifyContent: "center",
           backgroundColor: appConfig.theme.colors.primary[500],
-          backgroundImage:
-            "url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)",
+          backgroundImage: `url(${appConfig.backgroundImage})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundBlendMode: "multiply",
@@ -61,7 +60,7 @@ export default function PaginaInicial() {
             as="form"
             onSubmit={(event) => {
               event.preventDefault();
-              roteamento.push("/chat");
+              roteamento.push({ pathname: "/chat", query: { username } });
             }}
             styleSheet={{
               display: "flex",
