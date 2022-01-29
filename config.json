@@ -1,6 +1,6 @@
 {
   "name": "Discord - felipeproj",
-  "backgroundImage": "https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg",
+  "backgroundImage": "https://cdn.pixabay.com/photo/2020/03/04/19/43/galaxy-4902605_960_720.jpg",
   "stickers": [
     "https://www.alura.com.br/imersao-react-4/assets/figurinhas/Figurinha_1.png",
     "https://www.alura.com.br/imersao-react-4/assets/figurinhas/Figurinha_2.png",
@@ -42,16 +42,16 @@
   "theme": {
     "colors": {
       "primary": {
-        "050": "#70EE9C",
-        "100": "#6DEE9A",
-        "200": "#5BEC8D",
-        "300": "#48EA81",
-        "400": "#36E774",
-        "500": "#24E568",
-        "600": "#1ADB5D",
-        "700": "#18C956",
-        "800": "#15B74E",
-        "900": "#13A446"
+        "050": "#B6F5F7",
+        "100": "#91EFF3",
+        "200": "#B6F5F7",
+        "300": "#91EFF3",
+        "400": "#6CEAEF",
+        "500": "#47E5EB",
+        "600": "#23E0E7",
+        "700": "#16C4CA",
+        "800": "#12A0A5",
+        "900": "#0E7D81"
       },
       "neutrals": {
         "000": "#FFFFFF",

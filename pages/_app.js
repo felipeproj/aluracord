@@ -1,3 +1,5 @@
+import "../src/assets/styles.css";
+
 function GlobalStyle() {
   return (
     <style global jsx>{`
@@ -10,7 +12,6 @@ function GlobalStyle() {
       body {
         font-family: "Open Sans", sans-serif;
       }
-      /* App fit Height */
       html,
       body,
       #__next {
@@ -24,7 +25,6 @@ function GlobalStyle() {
       #__next > * {
         flex: 1;
       }
-      /* ./App fit Height */
     `}</style>
   );
 }

@@ -7,6 +7,7 @@ export function MessageList(props) {
       tag="ul"
       styleSheet={{
         overflow: "scroll",
+        overflowX: "hidden",
         display: "flex",
         flexDirection: "column-reverse",
         flex: 1,

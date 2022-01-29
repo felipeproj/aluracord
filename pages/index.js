@@ -1,23 +1,8 @@
+import { Titulo } from "../src/components/Titulo";
 import appConfig from "../config.json";
 import { useRouter } from "next/router";
 import { Box, Button, Text, TextField, Image } from "@skynexui/components";
 import React from "react";
-
-function Titulo(props) {
-  const Tag = props.tag ? props.tag : "h1";
-  return (
-    <>
-      <Tag>{props.children}</Tag>
-      <style jsx>{`
-        ${Tag} {
-          color: ${appConfig.theme.colors.primary[400]};
-          font-size: 24px;
-          font-weight: 600;
-        }
-      `}</style>
-    </>
-  );
-}
 
 export default function PaginaInicial() {
   const [username, setUsername] = React.useState("felipeproj");
@@ -30,7 +15,7 @@ export default function PaginaInicial() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          backgroundColor: appConfig.theme.colors.primary[500],
+          backgroundColor: appConfig.theme.colors.primary[200],
           backgroundImage: `url(${appConfig.backgroundImage})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
@@ -47,9 +32,9 @@ export default function PaginaInicial() {
               sm: "row",
             },
             width: "100%",
-            maxWidth: "700px",
-            borderRadius: "5px",
-            padding: "32px",
+            maxWidth: "820px",
+            borderRadius: "10px",
+            padding: "48px",
             margin: "16px",
             boxShadow: "0 2px 10px 0 rgb(0 0 0 / 20%)",
             backgroundColor: appConfig.theme.colors.neutrals[600],
@@ -106,7 +91,7 @@ export default function PaginaInicial() {
               fullWidth
               buttonColors={{
                 contrastColor: appConfig.theme.colors.neutrals["000"],
-                mainColor: appConfig.theme.colors.primary[900],
+                mainColor: appConfig.theme.colors.primary[800],
                 mainColorLight: appConfig.theme.colors.primary[400],
                 mainColorStrong: appConfig.theme.colors.primary[600],
               }}
