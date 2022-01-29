@@ -5,7 +5,7 @@ import { Box, Button, Text, TextField, Image } from "@skynexui/components";
 import React from "react";
 
 export default function PaginaInicial() {
-  const [username, setUsername] = React.useState("felipeproj");
+  const [username, setUsername] = React.useState("");
   const roteamento = useRouter();
 
   return (
